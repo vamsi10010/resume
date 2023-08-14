@@ -1,0 +1,214 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & \small#2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Vamsi Deeduvanu} \\ \vspace{1pt}
+    \small 765-694-9091 $|$ \href{mailto:x@x.com}{\underline{vamsi10010@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/vamsideeduvanu}{\underline{linkedin.com/in/vamsideeduvanu/}} $|$
+    \href{https://github.com/vamsi10010}{\underline{github.com/vamsi10010}}
+\end{center}
+
+Highly motivated student seeking Data Science and ML internships. Experienced in Java, Python, and C. Eager to learn more and expand technical expertise in the field of Machine Learning.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{West Lafayette, IN}
+      {Bachelor of Science in Computer Science and Data Science}{Aug. 2022 -- May 2025 (exp.)}
+      \resumeItemListStart
+        \resumeItem{\textit{Coursework}: Object Oriented Programming, Multivariate Calculus, Linear Algebra, 
+        \\Discrete Math, Probability, Statistics, Data Structures and Algorithms, Computer Architecture
+        }
+        \resumeItem{\textit{Clubs and Extracurriculars}: ML@Purdue, Purdue Astronomy Club, Intramural Sports}
+        \resumeItem{\textit{GPA}: 4.0/4.0}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Resonance Junior College}{Hyderabad, India}
+      {Intermediate}{June 2020 -- May 2022}
+      \resumeItemListStart
+      \resumeItem{\textit{Intermediate Public Examinations}: 98.2\%}
+      \resumeItem{\textit{JEE Mains}: 99.49th percentile all India}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Undergraduate Data Science Researcher}{Aug. 2022 -- May 2023}
+      {The Data Mine, Purdue University}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Partnered with Battelle on researching hyper-parameter optimization procedures for NLP models.}
+        \resumeItem{Fine-tuned a BERT model from the HuggingFace library to recognize adverse drug events from electronic health records.}
+        \resumeItem{Applied hyperband and population-based training algorithms from the RayTune library to tune hyperparameters and improved overall f1 score by more than 20\%.}
+        \resumeItem{Presented results in weekly sprint meetings with client and established a standard operating procedure as a reference for future projects.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{cgrad} $|$ \emph{C, cmocka, Deep Learning}}{Aug. 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Programmed a lightweight C library to support backpropagation for optimizing neural networks.}
+            \resumeItem{Implemented a directed acyclic graph to represent computational graph of a neural network and perform reverse auto-differentiation in runtime to calculate gradients.}
+            \resumeItem{Created unit tests for library using cmocka to streamline testing process.}
+            \resumeItem{Applied library to train a neural network to classify handwritten digits from MNIST dataset.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{YourCollege} $|$ \emph{Python, Scikit-Learn, Pandas, Streamlit}}{Jan. 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a college recommender application to assist high school students in college search.}
+            \resumeItem{Collected data from multiple sources and performed data cleaning and feature engineering for classification.}
+            \resumeItem{Trained an unsupervised learning algorithm to create unique a classification of colleges and recommendations for every user based on their personal preferences.}
+            \resumeItem{Built and deployed application on web through Streamlit to make it accessible to users.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Time Series Forecasting} $|$ \emph{Python, Statsmodels, Pandas, Keras, Matplotlib}}{Sep. 2022 -- May 2023}          
+          \resumeItemListStart
+            \resumeItem{Collaborated with members of ML@Purdue to forecast PM-10 pollution levels in California.}
+            \resumeItem{Implemented an ARIMA model from statsmodels library and LSTM model from Keras to predict PM-10 levels and compared results.}
+            \resumeItem{Researched causes of pollution in California and presented results at club standup meetings.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C, Java, SQL (Postgres), R, LaTeX} \\
+     \textbf{Developer Tools}{: Git, Bash, VS Code, Jupyter, PyCharm, IntelliJ} \\
+     \textbf{Libraries}{: PyTorch, HuggingFace, Keras, RayTune, Scikit-Learn, Streamlit, Pandas, NumPy, Matplotlib} \\
+     \textbf{Other Skills}{: Agile Development, Technical Writing, Communication, Leadership, Teamwork}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
