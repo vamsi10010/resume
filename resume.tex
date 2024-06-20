@@ -101,11 +101,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape Vamsi Deeduvanu} \\ \vspace{1pt}
     \small (765)-694-9091 $|$ \href{mailto:vamsi10010@gmail.com}{\underline{vamsi10010@gmail.com}} $|$ 
@@ -120,14 +115,17 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Purdue University}{Aug. 2022 -- May 2025 (exp.)}
+      {Purdue University}{Aug. 2025 -- May 2026}
+      {Masters of Science in Computer Science}{West Lafayette, IN}
+    \resumeSubheading
+      {Purdue University}{Aug. 2022 -- May 2025}
       {Bachelor of Science in Computer Science and Applied Statistics}{West Lafayette, IN}
       \resumeItemListStart
         \resumeItem{\textit{Coursework}: OOP, Calculus, Linear Algebra, Statistics, Data Structures and Algorithms, \\Computer Architecture,
         Machine Learning, Systems Programming
         }
-        \resumeItem{\textit{Clubs and Extracurriculars}: ML@Purdue, Purdue Astronomy Club, Intramural Soccer}
-        \resumeItem{\textit{Honors}: Dean's List and Semester Honors (Fall 2022, Spring 2023, Fall 2023)}
+        % \resumeItem{\textit{Clubs and Extracurriculars}: ML@Purdue, Purdue Astronomy Club, Intramural Soccer}
+        \resumeItem{\textit{Honors}: Dean's List and Semester Honors, L3Harris Scholarship, Poster Award at UG Research Expo}
         \resumeItem{\textit{GPA}: 4.0/4.0}
       \resumeItemListEnd
     % \resumeSubheading
@@ -143,7 +141,15 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-  \resumeSubheading{Undergraduate Teaching Assistant}{Aug. 2023 -- Present}
+  \resumeSubheading{AI/ML Intern}{May. 2024 -- Present}
+      {Volvo Group}{Hagerstown, MD}
+      \resumeItemListStart
+        \resumeItem{Designed an end-to-end edge computer vision pipeline to track truck service on factory floor using YOLOv8n and PaddleOCR.
+        Leveraged Thingworx API to store and visualize truck service information in real-time.}
+        \resumeItem{Integrated data from turbo-compound engine manufacturing lines to Thingworx platform to identify bottlenecks, improve part traceability,
+        and display visualizations on factory floor in real-time.}
+      \resumeItemListEnd
+  \resumeSubheading{Undergraduate Teaching Assistant}{Aug. 2023 -- May. 2024}
       {Department of Computer Science, Purdue University}{West Lafayette, IN}
       \resumeItemListStart
         \resumeItem{Provided instructional assistance as TA to students in CS 24000 (Programming in C) and CS 19300 (Tools).}
@@ -153,27 +159,28 @@
       \resumeItemListEnd
 
   \resumeSubheading{Undergraduate Researcher}{Aug. 2023 -- Dec. 2023}
-  {Purdue Vertically Integrated Projects}{West Lafayette, IN}
+  {TinyML/IIoT, Purdue University}{West Lafayette, IN}
     \resumeItemListStart
-      \resumeItem{Collaborated with local industry partners to establish an IIoT-based smart machine monitoring framework to improve manufacturing efficiency.}
-      \resumeItem{Developed a data pipeline to collect and process real-time machine data from MTConnect agents.}
-      \resumeItem{Labelled and annotated sensor data to train a deep learning model to predict chatter and other failures.}
-      \resumeItem{Awarded 2nd Best Poster for presentation at 2023 Fall Undergraduate Research Expo.}
+      \resumeItem{Collaborated with local industry partners to establish a low-cost IIoT-based machine monitoring framework.}
+      \resumeItem{Developed a data pipeline to collect and process real-time machine and sensor data using MTConnect.}
+      \resumeItem{Labelled and annotated sensor data to train a deep learning model to predict machining failures.}
+      % \resumeItem{Awarded 2nd Best Poster for presentation at 2023 Fall Undergraduate Research Expo.}
     \resumeItemListEnd
 
     \resumeSubheading
       {Data Science Researcher}{Aug. 2022 -- May 2023}
       {Battelle}{West Lafayette, IN}
       \resumeItemListStart
-      \resumeItem{Researched hyperband and population-based training algorithms to tune hyperparameters of NLP models.}
+      \resumeItem{Conducted research on hyperparameter tuning algorithms for LLMs and established an SOP for future projects.}
         % \resumeItem{Partnered with Battelle on researching hyper-parameter optimization procedures for NLP models resulting in significant improvement in performance. }
-        \resumeItem{Fine-tuned an LLM from HuggingFace to accurately identify adverse drug events in electronic health records.}
+        \resumeItem{Fine-tuned BioBERT from HuggingFace to accurately identify adverse drug events in electronic health records.}
         % \resumeItem{Applied hyperband and population-based training algorithms from RayTune to tune hyperparameters and improved overall f1 score by more than 20\%.}
-        \resumeItem{Boosted overall f1 score by more than 20\% using hyperparameter tuning algorithms from RayTune.}
+        \resumeItem{Boosted overall f1 score by more than 20\% using hyperband and population-based algorithms from RayTune.}
         % \resumeItem{Delivered updates in weekly sprint meetings with client and documented a standard operating procedure as a reference for future projects.}
-        \resumeItem{Established a successful standard operating procedure for hyperparameter tuning as reference for future projects.}
-        \resumeItem{Presented research poster at The Data Mine Symposium and demonstrated entity recognition on a live document.}
+        % \resumeItem{Established a successful standard operating procedure for hyperparameter tuning as reference for future projects.}
+        % \resumeItem{Presented research poster at The Data Mine Symposium and demonstrated entity recognition on a live document.}
       \resumeItemListEnd
+    \resumeSubHeadingListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -185,36 +192,43 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-  \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{hirehack} $|$ \emph{Python, JavaScript, PyTorch, HuggingFace}}{Jan. 2024 - Present}
+    \resumeProjectHeading
+          {\textbf{DuetDanceMotion} $|$ \emph{Python, PyTorch, SMPLX, Blender}}{May. 2024 - Present}
           \resumeItemListStart
-            \resumeItem{Developed a Chrome extension to automatically analyze interviewee responses and provide real-time feedback.}
-            \resumeItem{Designed modules to analyze prosodic and facial emotion features using PRAAT and Keras.}
-            \resumeItem{Automated recording and transcription of interviewee responses using WebSpeech API and performed sentiment analysis to extact lexical features.}
-            \resumeItem{Trained an FNN using PyTorch to predict interviewee performance based on extracted features.}
+            \resumeItem{Investigated generative models for synthesizing realistic human dance motion using text prompts and music cues.}
+            \resumeItem{Collected more than 6 hours of motion capture data of professional dancers to train generative models.}
+            \resumeItem{Developed a pipeline to convert mocap data to SMPLX format and visualize using Blender.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{hirehack} $|$ \emph{Python, JavaScript, PyTorch, HuggingFace, PRAAT, WebSpeech API}}{Jan. 2024 - Feb. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a Chrome extension to automatically analyze interview performance and provide feedback.}
+            \resumeItem{Integrated facial emotion, prosodic, and lexical features into a multi-modal model to score interview performance.}
+            % \resumeItem{Designed modules to analyze prosodic and facial emotion features using PRAAT and Keras.}
+            % \resumeItem{Automated recording and transcription of interviewee responses using WebSpeech API and performed sentiment analysis to extact lexical features.}
+            % \resumeItem{Trained an FNN using PyTorch to predict interviewee performance based on extracted features.}
             \resumeItem{Interfaced Mixtral-7B from HuggingFace API to interpret model output and generate feedback in real-time.}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{cgrad} $|$ \emph{C, cmocka, Deep Learning}}{Aug. 2023 -- Present}
-          \resumeItemListStart
-            \resumeItem{Programmed a lightweight backpropagation and neural network library for deep learning in C.}
-            % \resumeItem{Implemented a directed acyclic graph similar to PyTorch to represent computational graph of a neural network and perform backpropagation to calculate gradients.}
-            % \resumeItem{Designed an artificial neural network library that supports multiple layers, activation functions, gradient descent methods, and regularization options to enable model flexibility.}
-            \resumeItem{Optimized memory usage during model training by managing heap space with dynamic memory allocation.}
-            % \resumeItem{Applied cgrad to train an ANN to classify handwritten digits from MNIST dataset with 96\% accuracy, using less than 2GB of memory during training.}
-            \resumeItem{Successfully classified handwritten digits with 96\% accuracy, using less than 2GB of memory during training.}
-            % \resumeItem{Created unit tests for library using cmocka framework to automate testing process and ensure functionality.}
-            \resumeItem{Automated testing process and ensured functionality by creating unit tests using cmocka framework.}
-          \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{cgrad} $|$ \emph{C, cmocka, Deep Learning}}{Aug. 2023 -- Sep. 2023}
+      %     \resumeItemListStart
+      %       \resumeItem{Programmed a lightweight backpropagation and neural network library for deep learning in C.}
+      %       % \resumeItem{Implemented a directed acyclic graph similar to PyTorch to represent computational graph of a neural network and perform backpropagation to calculate gradients.}
+      %       % \resumeItem{Designed an artificial neural network library that supports multiple layers, activation functions, gradient descent methods, and regularization options to enable model flexibility.}
+      %       \resumeItem{Optimized memory usage during model training by managing heap space with dynamic memory allocation.}
+      %       % \resumeItem{Applied cgrad to train an ANN to classify handwritten digits from MNIST dataset with 96\% accuracy, using less than 2GB of memory during training.}
+      %       \resumeItem{Successfully classified handwritten digits with 96\% accuracy, using less than 2GB of memory during training.}
+      %       % \resumeItem{Created unit tests for library using cmocka framework to automate testing process and ensure functionality.}
+      %       \resumeItem{Automated testing process and ensured functionality by creating unit tests using cmocka framework.}
+      %     \resumeItemListEnd
 
       % \resumeProjectHeading
-      %     {\textbf{YourCollege} $|$ \emph{Python, Scikit-Learn, Pandas, Streamlit}}{Jan. 2023 -- Present}
+      %     {\textbf{YourCollege} $|$ \emph{Python, Scikit-Learn, Pandas, Streamlit}}{Jan. 2023 -- Apr. 2023}
       %     \resumeItemListStart
       %       \resumeItem{Developed a college recommender application to assist high school students in college search.}
       %       \resumeItem{Collected data from multiple sources and performed data cleaning and feature engineering for classification.}
@@ -239,9 +253,9 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, C, C++, Java, SQL (Postgres), R, LaTeX, x86-64 Assembly} \\
-     \textbf{Developer Tools}{: Git, Bash, Linux, VS Code, Jupyter, JetBrains, MTConnect, Agile Methodologies, XML} \\
-     \textbf{Libraries}{: PyTorch, HuggingFace, Keras, RayTune, Scikit-Learn, Streamlit, Pandas, NumPy, Matplotlib} \\
+     \textbf{Languages}{: Python, C, C++, Java, SQL (Postgres), R, JavaScript, LaTeX, x86-64 Assembly} \\
+     \textbf{Developer Tools}{: Git, Bash, Linux, MTConnect, XML, Azure DevOps, Thingworx, Agile Methodologies} \\
+     \textbf{Libraries}{: PyTorch, HuggingFace, Keras, Ultralytics, RayTune, Scikit-Learn, Streamlit, Pandas, NumPy, Matplotlib} \\
     %  \textbf{Operating Systems}{: Linux, Windows} \\ 
     }}
  \end{itemize}
