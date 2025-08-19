@@ -38,7 +38,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.7in}
+\addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -49,7 +49,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-6pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -92,7 +92,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -110,7 +110,7 @@
 
 % Highly motivated student seeking Data Science and ML internships. Experienced in Java, Python, and C. Eager to learn more and expand technical expertise in the field of Machine Learning.
 
-
+\vspace{-14pt}
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
@@ -121,7 +121,7 @@
       {Purdue University}{Aug. 2022 -- May 2025}
       {Bachelor of Science in Computer Science}{\textit{GPA}: 3.99/4.0}
       \resumeItemListStart
-        \resumeItem{\textit{Coursework}: OOP, DSA, Computer Architecture, Systems Programming, Compilers, AI, \\Machine Learning, NLP, Robotics
+        \resumeItem{\textit{Coursework}: OOP, DSA, Computer Architecture, Systems Programming, Compilers, AI, \\Machine Learning, NLP, Robotics, ML Systems, Randomized Algorithms, Statistical Theory
         }
         \resumeItem{\textit{Honors}: Dean's List and Semester Honors (6x), L3Harris Scholarship, UG Research Expo Award}
       \resumeItemListEnd
@@ -131,12 +131,12 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-  \resumeSubheading{SDE Intern}{May. 2025 -- Aug. 2025}
+  \resumeSubheading{Software Development Engineer Intern}{May. 2025 -- Aug. 2025}
       {Amazon, Project Kuiper}{Redmond, WA}
       \resumeItemListStart
-        \resumeItem{Developed a cost tracing system with RESTful API endpoints to improve supply chain accounting for Kuiper.}
+        \resumeItem{Developed a cost tracing service with RESTful API to improve supply chain accounting for Project Kuiper.}
         \resumeItem{Deployed a scalable serverless data pipeline on AWS achieving sub-10ms queries on millions of cost events.}
-        \resumeItem{Implemented an MCP agent using API Gateway and a Neo4j database to enable natural language queries.}
+        \resumeItem{Implemented an MCP agent using API Gateway endpoints, Neo4j, and Claude to enable natural language queries.}
       \resumeItemListEnd
   \resumeSubheading{Undergraduate Teaching Assistant}{Aug. 2023 -- May 2025}
       {Department of Computer Science, Purdue University}{West Lafayette, IN}
@@ -152,7 +152,7 @@
       \resumeItemListStart
         \resumeItem{Designed an edge AI pipeline to track truck service on factory floor using YOLOv8n and PaddleOCR models.}
         \resumeItem{Developed a live web interface using Streamlit to monitor KPIs such as truck count and takt time on-site.}
-        \resumeItem{Utilized Azure ML Studio conduct labeling, automate model training, and generate containers for deployment.}
+        % \resumeItem{Utilized Azure ML Studio conduct labeling, automate model training, and generate containers for deployment.}
         % Leveraged Thingworx API to store and visualize truck service information in real-time.}
         % \resumeItem{Integrated data from turbo-compound engine manufacturing lines to Thingworx platform to identify bottlenecks, improve part traceability,
         % and display visualizations on factory floor in real-time.}
@@ -162,9 +162,9 @@
   \resumeSubheading{Undergraduate Researcher}{Aug. 2023 -- Dec. 2023}
   {TinyML/IIoT, Purdue University}{West Lafayette, IN}
     \resumeItemListStart
-      \resumeItem{Collaborated with local industry partners to establish a low-cost IIoT-based machine monitoring framework.}
-      \resumeItem{Developed a data pipeline to collect and process real-time machine and sensor data using MTConnect.}
-      \resumeItem{Labelled and annotated sensor data to train a deep learning model to predict machining failures.}
+      % \resumeItem{Collaborated with local industry partners to establish a low-cost IIoT-based machine monitoring framework.}
+      \resumeItem{Developed a data pipeline to collect and process real-time CNC machine and sensor data using MTConnect.}
+      \resumeItem{Labelled and annotated sensor data to train a CNN to predict machining failures with \(> 90\%\) accuracy.}
       % \resumeItem{Awarded 2nd Best Poster for presentation at 2023 Fall Undergraduate Research Expo.}
     \resumeItemListEnd
 
@@ -261,8 +261,8 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, C, C++, Java, SQL (Postgres), R, JavaScript, LaTeX, x86-64 Assembly} \\
-     \textbf{Developer Tools}{: Git, Bash, Linux, LLVM, ROS, MTConnect, XML, Azure DevOps, Thingworx, Agile Methodologies} \\
+     \textbf{Languages}{: Python, C, C++, Java, SQL, R, JavaScript, TypeScript, Smithy, LaTeX, x86-64 Assembly} \\
+     \textbf{Developer Tools}{: Git, Bash, Linux, MacOS, LLVM, AWS, IaC, Docker, Gradle, Neo4j, MCP, REST API, uv} \\
      \textbf{Libraries}{: PyTorch, HuggingFace, Keras, Ultralytics, RayTune, Scikit-Learn, Streamlit, PySpark, Tensorflow, Plotly} \\
     %  \textbf{Operating Systems}{: Linux, Windows} \\ 
     }}
