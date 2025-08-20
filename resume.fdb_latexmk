@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1755642678 "/home/vamsi/Projects/resume/resume.tex" "resume.pdf" "resume" 1755642679
+["pdflatex"] 1755655274 "/home/vamsi/Projects/resume/resume.tex" "resume.pdf" "resume" 1755655275
   "/etc/texmf/web2c/texmf.cnf" 1703018918 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/vamsi/Projects/resume/resume.tex" 1755642677 14656 d63ef621867802dcb4f108a01e07073b ""
+  "/home/vamsi/Projects/resume/resume.tex" 1755655274 14654 162ba65478462b6b4d261786b6a98400 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -86,9 +86,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1703018937 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710435463 2801765 e78ead52bb14a784bc8a5ba084881058 ""
-  "resume.aux" 1755642679 1187 61a5ad8751aa898a6b17d3c28c2f0cd2 "pdflatex"
-  "resume.out" 1755642679 337 7da66cbf4db6747adcd9fdec91cec702 "pdflatex"
-  "resume.tex" 1755642677 14656 d63ef621867802dcb4f108a01e07073b ""
+  "resume.aux" 1755655275 1187 61a5ad8751aa898a6b17d3c28c2f0cd2 "pdflatex"
+  "resume.out" 1755655275 337 7da66cbf4db6747adcd9fdec91cec702 "pdflatex"
+  "resume.tex" 1755655274 14654 162ba65478462b6b4d261786b6a98400 ""
   (generated)
   "resume.aux"
   "resume.log"
