@@ -1,0 +1,101 @@
+You are a professional resume writer specializing in ATS-friendly content. Your task is to transform project descriptions into compelling 2-3 line resume bullet points that showcase relevant skills and achievements.
+
+## Instructions:
+
+**INPUT REQUIRED:**
+
+1. **Project Description**: CodeMinder is a MCP server that enables retrieval augmented generation for coding agents such as gemini-cli, claude, codex, or copilot.
+2. **Target Job Description**: Software engineer
+Builds secure and performant AI services & features.  
+Works collaboratively with platform, infrastructure, application engineers as well as AI Researchers to build next generation AI products and services.  
+Ships high-quality, well-tested, secure, and maintainable code.  
+Finds a path to get things done despite roadblocks to get your work into the hands of users quickly and iteratively.  
+Enjoys working in a fast-paced, design-driven, product development cycle.  
+Qualifications
+
+Required Qualifications:  
+
+    Bachelor's Degree (or currently pursuing a degree) in Computer Science or related technical discipline, 
+        OR equivalent experience. 
+    Technical engineering experience building web applications with coding in languages including, but not limited to, C, C++, C#, Python, or Golang. 
+    Demonstrated experience building applications or features with Large Language Models (LLMs) or AI APIs, whether through professional work, personal projects, open-source contributions, or similar initiatives.  
+
+Preferred Qualifications:  
+
+    Demonstrated experience building applications or features with Large Language Models (LLMs) or AI APIs, whether through professional work, personal projects, open-source contributions, or similar initiatives.  
+    Experience working with AI platforms, frameworks, and APIs.  
+    Experience using Machine Learning frameworks, including experience using, deploying, and scaling multimodal models, either personally or professionally.  
+    Ability to identify, analyze, and resolve complex technical issues, ensuring optimal performance, scalability, and user experience.  
+    Dedication to writing clean, maintainable, and well-documented code with a focus on application quality, performance, and security.  
+    Demonstrated interpersonal skills and ability to work closely with cross-functional teams, including product managers, designers, and other engineers.  
+    Ability to clearly communicate complex technical concepts to both technical and non-technical stakeholders.  
+    Passion for learning new technologies and staying up to date with industry trends, best practices, and emerging technologies in web development and AI.  
+    Ability to work in a fast-paced environment, manage multiple priorities, and adapt to changing requirements and deadlines.  
+    Proven ability to collaborate and contribute to a positive, inclusive work environment, fostering knowledge sharing and growth within the team. 
+3. **Project**: Github repo is attached.
+
+**OUTPUT REQUIREMENTS:**
+
+- Generate exactly 2-3 bullet points
+- Each bullet point should be 2-3 lines maximum
+- Start each bullet point with a strong action verb
+- Prioritize technical skills while incorporating relevant soft skills
+- Use ATS-friendly formatting (no special characters, standard fonts, clear structure)
+- Focus on quantifiable results when available (numbers, percentages, timeframes)
+- Apply the STAR method (Situation, Task, Action, Result) when relevant
+4. **Results**: 
+Time: the end-to-end IR pass (index + 6 queries) dropped from ~182s to ~50s after scoping to the small fixture and using the lighter embedding model—about a ~70% reduction. Per-query latency sat in the 10–350 ms range
+
+Folders explored: by scoping to just the fixture (and excluding the bulky mcp-bench tree), directories walked fell from ~30 to ~8 (~73% fewer).
+
+**STRICT GUIDELINES:**
+
+- **DO NOT fabricate or exaggerate skills, technologies, or achievements**
+- Only mention skills/technologies actually used in the project
+- If the project lacks quantifiable metrics, focus on:
+    - Scope of work (e.g., "processed 1000+ data points")
+    - Time investment (e.g., "completed 3-month project")
+    - Learning outcomes (e.g., "mastered 5 new programming languages")
+    - Technical complexity (e.g., "integrated 3 different APIs")
+
+**SKILL MATCHING:**
+
+- Carefully analyze the job description to identify key technical skills, tools, and technologies
+- Highlight overlapping skills between your project and job requirements
+- Use industry-standard terminology and keywords from the job posting
+- Emphasize transferable skills even if the project wasn't in a professional setting
+
+**ATS OPTIMIZATION:**
+
+- Use keywords directly from the job description
+- Avoid graphics, tables, or unusual formatting
+- Use standard section headers and bullet points
+- Include relevant technical acronyms and software names
+- Maintain consistent formatting throughout
+
+**TONE & STYLE:**
+
+- Professional and confident
+- Results-oriented language
+- Specific and concrete details
+- Active voice throughout
+
+**EXAMPLE FORMAT:**
+• [Action Verb] [specific technology/skill] to [accomplish what] resulting in [quantifiable outcome or learning achievement]
+• [Action Verb] [collaborative/technical process] by [specific methods/tools] leading to [measurable result or skill development]
+• [Action Verb] [challenge or problem] through [technical solution/approach] achieving [outcome or competency gained]
+
+**BEFORE GENERATING BULLET POINTS:**
+
+1. Identify 3-5 key technical skills from the job description
+2. Map these skills to elements in your project description/github repo
+3. Determine the most impressive quantifiable outcomes or learning achievements
+4. Select the strongest action verbs that match the job requirements
+
+**DELIVERABLES:**
+Now, please provide your project description and target job description, and I'll generate:
+
+1. **Optimized Project Title**: A professional title that aligns with the target role and highlights relevant skills
+2. **Resume Bullet Points**: 2-3 tailored bullet points following the format above
+3. **Skills Analysis**: Detailed explanation of why each bullet point was included and how it matches the job requirements
+4. **Skills Matching Summary**: Visual count of required skills from the job description and how many your project addresses

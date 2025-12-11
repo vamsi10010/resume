@@ -132,9 +132,9 @@
 \section{Experience}
   \resumeSubHeadingListStart
   \resumeSubheading{Software Development Engineer Intern}{May 2025 -- Aug. 2025}
-      {Amazon, Project Kuiper}{Redmond, WA}
+      {Amazon}{Redmond, WA}
       \resumeItemListStart
-        \resumeItem{Developed a cost tracing service with RESTful API improving supply chain cost visibility for Project Kuiper.}
+        \resumeItem{Developed a cost tracing service with RESTful API improving supply chain cost visibility for Amazon Leo.}
         \resumeItem{Deployed a scalable serverless data pipeline on AWS achieving sub-10ms queries on millions of cost events.}
         \resumeItem{Built an MCP agent using Neo4j and Claude enabling non-tech stakeholders to perform natural language queries.}
       \resumeItemListEnd
@@ -201,12 +201,20 @@
 \section{Projects}
     \resumeSubHeadingListStart
     \resumeProjectHeading
-    {\textbf{LLM Uncertainity Calibration} $|$ \emph{Python, PyTorch, HuggingFace, scikit-learn, LMDB}}{Mar. 2025 - May 2025}
+    {\textbf{codeminder} $|$ \emph{Python, PyTorch, LanceDB, Tree-sitter, FastMCP, RAG}}{Dec. 2025 - Present}
     \resumeItemListStart
-      \resumeItem{Built an LLM calibration pipeline to quantify response uncertainty on real-world tasks during inference.}
-      \resumeItem{Designed a rigorous scikit-learn evaluation suite to compute error metrics and generate calibration curves.}
-      \resumeItem{Scaled experiments with LMDB tensor caching and batched GPU inference, speeding up experiments.}
+      \resumeItem{Engineered a RAG system using LanceDB and Tree-sitter to power semantic code search for LLM agents.}
+      \resumeItem{Implemented a novel AST embedding algorithm that reduced search scopes for coding agents by 73\%.}
+      \resumeItem{Packaged into a Python library with Github actions and used FastMCP to enable seamless use with coding agents.}
     \resumeItemListEnd
+
+    % \resumeProjectHeading
+    % {\textbf{LLM Uncertainity Calibration} $|$ \emph{Python, PyTorch, HuggingFace, scikit-learn, LMDB}}{Mar. 2025 - May 2025}
+    % \resumeItemListStart
+    %   \resumeItem{Built an LLM calibration pipeline to quantify response uncertainty on real-world tasks during inference.}
+    %   \resumeItem{Designed a rigorous scikit-learn evaluation suite to compute error metrics and generate calibration curves.}
+    %   \resumeItem{Scaled experiments with LMDB tensor caching and batched GPU inference, speeding up experiments.}
+    % \resumeItemListEnd
 
     % \resumeProjectHeading
     %       {\textbf{DuetDanceMotion} $|$ \emph{Python, PyTorch, SMPLX, Blender}}{May. 2024 - Present}
@@ -273,7 +281,7 @@
     \small{\item{
      \textbf{Languages}{: Python, C, C++, Java, SQL, R, CUDA, JavaScript, TypeScript, Smithy, LaTeX, x86-64 Assembly} \\
      \textbf{Developer Tools}{: Git, Bash, UNIX, MacOS, AWS, Azure, IaC, Docker, Neo4j, REST API, uv, Agile} \\
-     \textbf{Libraries}{: PyTorch, HuggingFace, RayTune, Streamlit, Tensorflow, JAX, LLVM, MLIR, TVM, CDK} \\
+     \textbf{Libraries}{: PyTorch, HuggingFace, RayTune, Streamlit, Tensorflow, LLVM, LanceDB, FastMCP, Tree-sitter} \\
     %  \textbf{Operating Systems}{: Linux, Windows} \\ 
     }}
  \end{itemize}
